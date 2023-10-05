@@ -1,5 +1,0 @@
-s = input()
-first_point = s.find('.')
-print(s[s.find('.', first_point+1)+1::])
-print(s[first_point+1:s.find('.', first_point+1)])
-print(s[0:first_point])
